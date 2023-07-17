@@ -1,0 +1,123 @@
+.form-container {
+  max-width: 400px;
+  margin: 0 auto;
+}
+.form-group {
+  margin-bottom: 20px;
+}
+.form-label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.form-input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+.form-submit {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.Category {
+  max-width: 1200px;
+  display: flex;
+  margin: 20px auto 20px auto;
+  flex-wrap: wrap;
+  gap: 30px 50px;
+  overflow-y: auto;
+  height: 700px;
+}
+
+.category_card {
+  background-color: #f5f5f5;
+  border-radius: 30px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  width: 300px;
+  height: auto;
+}
+.maxsulotlar_card{
+  background-color: #f5f5f5;
+  border-radius: 30px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  width: 300px;
+  height: 350px;
+}
+.category_header {
+  border-radius: 10px;
+  width: 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+
+.category_content {
+  text-align: center;
+  
+}
+.category_header h2 {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
+.color_span{
+  box-shadow: 0 0 5px;
+  display: inline-block;
+  width: 15px;
+  height: 10px;
+}
+.category_img{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  box-shadow: 3px 3px 1px #ccc;
+}
+.uplButton{
+  color: white;
+  float: right;
+  margin-top: 10px;
+  padding: 5px 2px;
+  text-align: center;
+  width: 100px;
+  height: auto;
+  background: #4caf50;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.uplButton:hover{
+  opacity: 0.7;
+}
+.uplButton:active{
+  background: #0f9614;
+}
+#check {
+  margin-right: 6px;
+  pointer-events: none;
+}
+.active_label{
+  font-weight: 500;
+  color: #333;
+  cursor: pointer;
+  user-select: none;
+}
+#check:checked{
+  accent-color: #7d2ae8;
+}
+#check:checked ~ label{
+  accent-color: #7d2ae8;
+}
+.Maxsulotlar_h2{
+  font-size: 15px !important;
+}

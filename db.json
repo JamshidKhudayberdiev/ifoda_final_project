@@ -1,0 +1,32 @@
+{
+  "branch": [
+    {
+      "id": 5,
+      "name": "Tashkent filial123123",
+      "address": "Amir Temur Street, 101",
+      "phone": "+998901112233",
+      "lat": 41.312115,
+      "lng": 69.27937
+    },
+    {
+      "id": "12",
+      "name": "Toshkent feliali",
+      "address": "asdadasdsadsa",
+      "phone": "+989755565656"
+    },
+    {
+      "id": "20",
+      "name": "Andijon feliali",
+      "address": "Andijon shaxar dasdad",
+      "phone": "+998913416878",
+      "message": "20.06.2023 15:19 da qoshildi"
+    },
+    {
+      "id": "1212",
+      "name": "asdasd",
+      "address": "asdasdsa",
+      "phone": "asdsad",
+      "message": "adasd"
+    }
+  ]
+}
